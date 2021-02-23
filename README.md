@@ -1,5 +1,9 @@
 # hot-dog
 
+Working frontend that stores the data in an array. 
+This is for before connecting to the backend.
+
+
 ## Project setup
 ```
 npm install
