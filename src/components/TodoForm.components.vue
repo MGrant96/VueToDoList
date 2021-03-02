@@ -14,11 +14,11 @@
         ❗Please fill out ToDo field!
       </p>
       <p v-if="success" class="success-message">✅ Todo successfully added</p>
-      <v-btn type="submit">Add ToDo</v-btn>
+      <v-btn type="submit" onClick="window.location.reload();">Add ToDo</v-btn>
     </form>
   </div>
 </template>
-
+ 
 <script>
 export default {
   name: "todo-form",
@@ -42,7 +42,6 @@ export default {
         this.error = true;
         return;
       }
-      // Store call
       this.$store.dispatch("addTodo", this.todo);
       this.$refs.first.focus();
       this.todo = {
@@ -53,7 +52,6 @@ export default {
       this.success = true;
       this.submitting = false;
     },
-
     clearStatus() {
       this.success = false;
       this.error = false;
@@ -83,5 +81,4 @@ form {
 .success-message {
   color: #32a95d;
 }
-
 </style>

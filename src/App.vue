@@ -5,10 +5,8 @@
       <v-toolbar-title>ToDo List</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
-
     <v-main>
       <todo-form/>
-      <!--tell todo-table to perform an action on delete-todo-->
       <todo-table />
     </v-main>
   </v-app>

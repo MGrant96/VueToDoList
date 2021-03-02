@@ -1,8 +1,4 @@
-# ToDo List
-
-Working frontend that stores the data in an array. 
-This is for before connecting to the backend.
-
+# hot-dog
 
 ## Project setup
 ```
