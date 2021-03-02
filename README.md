@@ -1,4 +1,4 @@
-# hot-dog
+# Fully Connected Backend version of the ToDo List
 
 ## Project setup
 ```
